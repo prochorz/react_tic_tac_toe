@@ -75,7 +75,7 @@ export default class Board extends Component {
             if( rival.countSteps === 1 && winner.countSteps !== 1 ) { //if a robot can lose
                 this._selectCell( rival.step );
             } else {
-                this._selectCell( findBestStep( matrix, currentUser ).step );
+                this._selectCell( winner.step );
             }
         });
 
