@@ -111,7 +111,7 @@ export default class Board extends Component {
     _statusText = () => {
         const { matrix, users, winner: { user: winnerUser, combination: winnerCombination }, currentUser } = this.state;
 
-        if( !matrix.filter( el => el === null ).length && winnerUser === false ) {
+        if( matrix.indexOf( null ) === -1 && winnerUser === false ) {
             return "It's a draw"
         }
 
