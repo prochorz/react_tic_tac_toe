@@ -38,7 +38,7 @@ export const findBestStep = ( matrix, user ) => {
     let possibility = 3;
 
     //if it first step
-    if( !matrix.filter( elm => elm === user ).length ) {
+    if( matrix.indexOf(user) !== -1 ) {
         bestKeySteps = matrix.map( (el, i) => el === null ? i : false ).filter( key => key !== false );
         return {
             countSteps: possibility,
