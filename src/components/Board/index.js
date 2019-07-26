@@ -69,13 +69,13 @@ export default class Board extends Component {
             const rival = findBestStep( matrix, currentUser ? 0 : 1 );
 
             //robot step
-            const winner = findBestStep( matrix, currentUser );
+            const robot = findBestStep( matrix, currentUser );
 
 
-            if( rival.countSteps === 1 && winner.countSteps !== 1 ) { //if a robot can lose
+            if( rival.countSteps === 1 && robot.countSteps !== 1 ) { //if a robot can lose
                 this._selectCell( rival.step );
             } else {
-                this._selectCell( winner.step );
+                this._selectCell( robot.step );
             }
         });
 
