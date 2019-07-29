@@ -39,7 +39,7 @@ export const findBestStep = ( matrix, user ) => {
 
     //if it first step
     if( matrix.indexOf(user) === -1 ) {
-        bestKeySteps = matrix.map( (el, i) => el === null ? i : false ).filter( key => key !== false );
+        bestKeySteps = matrix.map( (el, i) => el === null && i ).filter( key => key !== false );
         return {
             countSteps: possibility,
             step: bestKeySteps[Math.floor(Math.random()*bestKeySteps.length)]
