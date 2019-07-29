@@ -33,7 +33,7 @@ export default class Board extends Component {
                 });
 
                 store.dispatch(addItem(`${new Date().toTimeString().slice(0,5)} ${users[winner.user]} won!`));
-            } else if( !matrix.filter( el => el === null ).length ) {
+            } else if( matrix.indexOf(null) === -1 ) {
                     this.setState({
                         status: false,
                     });
