@@ -58,7 +58,7 @@ export const findBestStep = ( matrix, user ) => {
 
             if( tempPossibility < possibility ) {
                 possibility = tempPossibility;
-                bestKeySteps = temp.map( ( elm, i ) => elm === null ? combination[i] : false ).filter( elm => elm !== false )
+                bestKeySteps = temp.map( ( elm, i ) => elm === null && combination[i] ).filter( elm => elm !== false )
             }
 
         }
