@@ -14,7 +14,7 @@ export default class Popup extends Component {
                     <h3>Logs</h3>
                     <div className="popup__list">
                         <ol>
-                            { history.length ? history.map( (txt, key) => <li key={key}>{txt}</li> ) : 'Plz, go to play!' }
+                            { history.length ? history.map( (txt, key) => <li key={key}>{txt}</li> ) : '<li>Plz, go to play!</li>' }
                         </ol>
                     </div>
                     <button onClick={this.props.closePopup}>Close</button>
