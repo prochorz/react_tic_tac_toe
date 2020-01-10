@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "https://prochorz.github.io/react_tic_tac_toe/static/css/main.8bf38417.chunk.css",
-    "main.js": "https://prochorz.github.io/react_tic_tac_toe/static/js/main.0c3c1c53.chunk.js",
-    "main.js.map": "https://prochorz.github.io/react_tic_tac_toe/static/js/main.0c3c1c53.chunk.js.map",
-    "runtime~main.js": "https://prochorz.github.io/react_tic_tac_toe/static/js/runtime~main.8900ecf2.js",
-    "runtime~main.js.map": "https://prochorz.github.io/react_tic_tac_toe/static/js/runtime~main.8900ecf2.js.map",
-    "static/js/2.35d789b9.chunk.js": "https://prochorz.github.io/react_tic_tac_toe/static/js/2.35d789b9.chunk.js",
-    "static/js/2.35d789b9.chunk.js.map": "https://prochorz.github.io/react_tic_tac_toe/static/js/2.35d789b9.chunk.js.map",
-    "index.html": "https://prochorz.github.io/react_tic_tac_toe/index.html",
-    "precache-manifest.1e71d513bfbcbdac8f2093c1da8edcb7.js": "https://prochorz.github.io/react_tic_tac_toe/precache-manifest.1e71d513bfbcbdac8f2093c1da8edcb7.js",
-    "service-worker.js": "https://prochorz.github.io/react_tic_tac_toe/service-worker.js",
-    "static/css/main.8bf38417.chunk.css.map": "https://prochorz.github.io/react_tic_tac_toe/static/css/main.8bf38417.chunk.css.map"
+    "main.css": "/react_tic_tac_toe/static/css/main.8bf38417.chunk.css",
+    "main.js": "/react_tic_tac_toe/static/js/main.98929b8b.chunk.js",
+    "main.js.map": "/react_tic_tac_toe/static/js/main.98929b8b.chunk.js.map",
+    "runtime~main.js": "/react_tic_tac_toe/static/js/runtime~main.44d28471.js",
+    "runtime~main.js.map": "/react_tic_tac_toe/static/js/runtime~main.44d28471.js.map",
+    "static/js/2.35d789b9.chunk.js": "/react_tic_tac_toe/static/js/2.35d789b9.chunk.js",
+    "static/js/2.35d789b9.chunk.js.map": "/react_tic_tac_toe/static/js/2.35d789b9.chunk.js.map",
+    "index.html": "/react_tic_tac_toe/index.html",
+    "precache-manifest.c4b294de2463b203735c93ec2c6df915.js": "/react_tic_tac_toe/precache-manifest.c4b294de2463b203735c93ec2c6df915.js",
+    "service-worker.js": "/react_tic_tac_toe/service-worker.js",
+    "static/css/main.8bf38417.chunk.css.map": "/react_tic_tac_toe/static/css/main.8bf38417.chunk.css.map"
   }
 }
